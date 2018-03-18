@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" configfailurepolicy="continue" 
+    time-out="300000" skipfailedinvocationcounts="true" preserve-order="true" > 
+
+	<test name="case01 发送jiraBUG详细情况" enabled="true" >
+		<classes>
+			<class name="com.zdlh.email.sendMail">
+			</class>
+		</classes>
+	</test>
+</suite>
