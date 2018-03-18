@@ -53,7 +53,7 @@ public class sendMail {
 
     @Test
     public void send () {
-        String mail = "tech@zdlhcar.com";//收件人
+        String mail = "xxx@163.com";//收件人
         String title = "中大联合项目测试报告-" + nowDate();
         String content = mailHtmlModle.htmlMoble();
         //System.out.println(content);
